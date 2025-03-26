@@ -9,10 +9,10 @@ export const Header = () => {
         </div>
         <div className="px-8">
           <div className="text-3xl font-semibold">SHUVAM MANDAL</div>
-          <div className="flex gap-x-8 text-green-600">
-            <p className="hover:underline">About</p>
-            <p className="hover:underline">Projects</p>
-            <p className="hover:underline">Experiance</p>
+          <div className="flex text-green-600">
+            <p className="hover:underline pr-4 border-dashed border-r-2">About</p>
+            <p className="hover:underline px-4 border-dashed border-r-2">Projects</p>
+            <p className="hover:underline px-4">Experiance</p>
           </div>
         </div>
       </div>
