@@ -4,9 +4,9 @@ import { Header } from "./components/Header";
 function App() {
   return (
     <>
-      <div className="mx-20 mt-16 font-mono h-screen">
+      <div className="mx-60 mt-16 font-mono h-screen">
         <Header />
-        <div className="mt-20 ml-20 mr-30">
+        <div className="mt-20 mx-10">
           <p className="text-2xl font-semibold mb-6">Hey there !</p>
           <p>
             Aspiring software developer with hands-on experience in full-stack
@@ -31,7 +31,7 @@ function App() {
             <p>Find me on </p>
           </div>
         </div>
-        <div className="mt-15 ml-20 mr-30">
+        <div className="mt-15 mx-10">
           <p className="font-semibold text-xl mb-6">Technologies I have worked with</p>
           <div className="flex flex-col gap-y-4">
           <p><span className="underline">Programming Languages</span> : Javascript / Typescript, Python, C++.</p>
@@ -40,6 +40,16 @@ function App() {
           <p><span className="underline">Database</span> : Postgre, SQL, MongoDB, Prisma, Redis.</p>
           <p><span className="underline">Devops</span> : AWS, Cloudflare, NGINX, Docker, </p>
           </div>
+        </div>
+        <div className="mt-16 mx-10">
+          <p className="font-semibold text-xl mb-6">Experience</p>
+          <div>
+            <p>May 2024 - Sep 2024 <span className="font-bold">Open Source Contributor</span> @GSSOC</p>
+          </div>
+        </div>
+        <div className="mt-16 mx-10">
+          <p className="font-semibold text-xl mb-6">Projects</p>
+          <div></div>
         </div>
       </div>
     </>
