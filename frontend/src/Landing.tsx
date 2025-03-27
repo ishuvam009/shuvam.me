@@ -1,15 +1,10 @@
-import "./App.css";
-import { Header } from "./components/Header";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { IoMdRocket } from "react-icons/io";
 
-function App() {
-  return (
-    <>
-      <div className="mx-60 mt-16 font-mono h-screen">
+
+export const Landing = () => {
+
+    return(
+        <>
+        <div className="mx-60 mt-16 font-mono h-screen">
         <Header />
         {/* //About Section */}
         <div className="mt-20 mx-10">
@@ -136,8 +131,6 @@ function App() {
           <IoMdRocket className="ml-2"/>
         </div>
       </div>
-    </>
-  );
+        </>
+    )
 }
-
-export default App;
