@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+import { Header } from "../components/Header";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
