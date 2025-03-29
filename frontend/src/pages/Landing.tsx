@@ -6,10 +6,9 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdRocket } from "react-icons/io";
 
 export const Landing = () => {
-
-    return(
-        <>
-        <div className="mx-60 mt-16 font-mono h-screen">
+  return (
+    <>
+      <div className="mx-60 mt-16 font-mono h-screen">
         <Header />
         {/* //About Section */}
         <div className="mt-20 mx-10">
@@ -96,7 +95,9 @@ export const Landing = () => {
               <span className="text-slate-600">May 2024 - Sep 2024</span>{" "}
               <span className="font-bold">Open Source Contributor</span> @GSSOC
             </p>
-            <FaExternalLinkAlt className="ml-4" />
+            <a href="https://drive.google.com/file/d/13ZTwDaayCfg3A8kOuchURL9o8QGWfVQa/view" target="_blank">
+              <FaExternalLinkAlt className="ml-4" />
+            </a>
           </div>
         </div>
         {/* //Projects Section */}
@@ -133,9 +134,9 @@ export const Landing = () => {
         {/* //Footer Section */}
         <div className="mt-30 flex justify-center">
           <p>© SHUVAM MANDAL</p>
-          <IoMdRocket className="ml-2"/>
+          <IoMdRocket className="ml-2" />
         </div>
       </div>
-        </>
-    )
-}
+    </>
+  );
+};
