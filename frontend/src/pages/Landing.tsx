@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdRocket } from "react-icons/io";
+import { ProjectComp } from "../components/ProjectComp";
 
 export const Landing = () => {
   return (
@@ -95,42 +96,16 @@ export const Landing = () => {
               <span className="text-slate-600">May 2024 - Sep 2024</span>{" "}
               <span className="font-bold">Open Source Contributor</span> @GSSOC
             </p>
-            <a href="https://drive.google.com/file/d/13ZTwDaayCfg3A8kOuchURL9o8QGWfVQa/view" target="_blank">
+            <a
+              href="https://drive.google.com/file/d/13ZTwDaayCfg3A8kOuchURL9o8QGWfVQa/view"
+              target="_blank"
+            >
               <FaExternalLinkAlt className="ml-4" />
             </a>
           </div>
         </div>
         {/* //Projects Section */}
-        <div className="mt-16 mx-10">
-          <p className="font-semibold text-xl mb-6">Projects</p>
-          <div>
-            <div className="mb-4">
-              <p className="underline underline-offset-4">
-                FinSight AI - AI-Powered Financial Insights Engine.
-              </p>
-              <p className="text-orange-400">
-                [React, FastAPI, Langchain, AWS Lambda, FAISS]
-              </p>
-            </div>
-            <div className="mb-4">
-              <p className="underline underline-offset-4">
-                ScribeX - Medium like blogging platform.
-              </p>
-              <p className="text-orange-400">
-                [Hono, Reacct, Postgresql, Cloudflare Workers, Prisma, ZOD,
-                Connection Pooling]
-              </p>
-            </div>
-            <div className="mb-4">
-              <p className="underline underline-offset-4">
-                Payment Wallet - Peer to peer money transfer,
-              </p>
-              <p className="text-orange-400">
-                [React, Express.js, Node.js, MongoDB, Vercel, JWT, ZOD]
-              </p>
-            </div>
-          </div>
-        </div>
+        <ProjectComp />
         {/* //Footer Section */}
         <div className="mt-30 flex justify-center">
           <p>© SHUVAM MANDAL</p>
