@@ -5,6 +5,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdRocket } from "react-icons/io";
 import { ProjectComp } from "../components/ProjectComp";
+import GitHubCalendar from "react-github-calendar";
 
 export const Landing = () => {
   return (
@@ -59,6 +60,11 @@ export const Landing = () => {
               <FaSquareXTwitter className="text-2xl" />
             </a>
           </div>
+        </div>
+        {/* //Github Contribution Calander */}
+        <div className="mx-10 my-15">
+          <p className="my-6 font-bold">Github Contribution</p>
+          <GitHubCalendar username="ishuvam009" />
         </div>
         {/* //Tech Stack Section */}
         <div className="mt-15 mx-10">
