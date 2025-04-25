@@ -4,10 +4,9 @@ Welcome to my personal portfolio website! Built with **React** and styled using 
 
 ## 🚀 Tech Stack
 
-- **React** – Frontend JavaScript library
-- **Tailwind CSS** – Utility-first CSS framework for fast UI development
-- **React Router** – Client-side routing
-- **Vite / Create React App** – (Pick one based on your setup)
+- **React** – For Frontend
+- **Tailwind CSS** – For Utility-first CSS framework for fast UI development
+- **React Router** – For Client-side routing
 
 ## 📸 Features
 
