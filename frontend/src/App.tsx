@@ -4,6 +4,7 @@ import { Landing } from "./pages/Landing";
 import { Projects } from "./pages/Projects";
 import { NotFound } from "./components/NotFound";
 import { Experiance } from "./pages/Experiance";
+import { ProjectOne } from "./pages/ProjectOne";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Landing/>}/>
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/experiance" element={<Experiance />}/>
+        <Route path="projects/finsight" element={<ProjectOne/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>
