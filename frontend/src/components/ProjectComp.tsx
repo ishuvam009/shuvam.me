@@ -16,7 +16,7 @@ export const ProjectComp = () => {
               </p>
             </div>
           </Link>
-          <Link to={""}>
+          <Link to={"/projects/medium"}>
             <div className="mb-4">
               <Link to={""}>
                 <p className="underline underline-offset-4">
