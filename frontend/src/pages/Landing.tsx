@@ -8,7 +8,7 @@ import { ProjectComp } from "../components/ProjectComp";
 import GitHubCalendar from "react-github-calendar";
 
 export const Landing = () => {
-  return (
+  return (    
     <>
       <div className="mx-60 mt-16 font-mono h-screen">
         <Header />

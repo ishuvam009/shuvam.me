@@ -18,24 +18,20 @@ export const ProjectComp = () => {
           </Link>
           <Link to={"/projects/medium"}>
             <div className="mb-4">
-              <Link to={""}>
                 <p className="underline underline-offset-4">
                   ScribeX - Medium like blogging platform.
                 </p>
-              </Link>
               <p className="text-orange-400">
                 [Hono, Reacct, Postgresql, Cloudflare Workers, Prisma, ZOD,
                 Connection Pooling]
               </p>
             </div>
           </Link>
-          <Link to={""}>
+          <Link to={"/projects/paytm"}>
             <div className="mb-4">
-              <Link to={""}>
                 <p className="underline underline-offset-4">
                   Payment Wallet - Peer to peer money transfer,
                 </p>
-              </Link>
               <p className="text-orange-400">
                 [React, Express.js, Node.js, MongoDB, Vercel, JWT, ZOD]
               </p>

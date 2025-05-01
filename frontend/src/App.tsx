@@ -6,6 +6,7 @@ import { NotFound } from "./components/NotFound";
 import { Experiance } from "./pages/Experiance";
 import { ProjectOne } from "./pages/ProjectOne";
 import { ProjectTwo } from "./pages/ProjectTwo";
+import { ProjectThree } from "./pages/ProjectThree";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing/>}/>
         <Route path="/projects" element={<Projects/>}/>
-        <Route path="/experiance" element={<Experiance />}/>
+        <Route path="/experience" element={<Experiance />}/>
         <Route path="projects/finsight" element={<ProjectOne/>}/>
-        <Route path="projects/" element={<ProjectTwo/>}/>
+        <Route path="/projects/medium" element={<ProjectTwo/>}/>
+        <Route path="/projects/paytm" element={<ProjectThree/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>

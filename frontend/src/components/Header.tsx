@@ -9,7 +9,9 @@ export const Header = () => {
           <img className="rounded-full hover:" src={image} alt="Shuvam image" />
         </div>
         <div className="px-8">
+        <Link to={"/"}>
           <div className="text-3xl font-semibold">SHUVAM MANDAL</div>
+        </Link>
           <div className="flex text-green-600">
             <Link to={"/"}>
               <p className="hover:underline pr-4 border-dashed border-r-2">
@@ -21,8 +23,8 @@ export const Header = () => {
                 Projects
               </p>
             </Link>
-            <Link to={"/experiance"}>
-              <p className="hover:underline px-4">Experiance</p>
+            <Link to={"/experience"}>
+              <p className="hover:underline px-4">Experience</p>
             </Link>
           </div>
         </div>

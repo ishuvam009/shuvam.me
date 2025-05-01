@@ -1,7 +1,7 @@
 export const ProjectOne = () => {
     return(
         <>
-        <p>Hellofromprojrctone.</p>
+        <p>Hello fromp roject one.</p>
         </>
     )
 }
