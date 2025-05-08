@@ -9,7 +9,8 @@ export const ProjectOne = () => {
                 <div className="mt-20">
                     <p className="text-xl mb-10 font-semibold">AI - powered finance chat system capable of processing and retrieving information from
                     financial articles to provide intelligent responses.</p>
-                    <img src={image1} alt="" />
+                    <img src={image1} alt="finsight" />
+                    
                 </div>
             </div>
         </>

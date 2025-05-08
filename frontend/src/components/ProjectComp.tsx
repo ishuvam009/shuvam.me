@@ -12,7 +12,7 @@ export const ProjectComp = () => {
                   FinSight AI - AI-Powered Financial Insights Engine.
                 </p>
               <p className="text-orange-400">
-                [React, FastAPI, Langchain, AWS Lambda, FAISS]
+                [React, FastAPI, Langchain, VectorDB, Milvs, Gemini]
               </p>
             </div>
           </Link>
