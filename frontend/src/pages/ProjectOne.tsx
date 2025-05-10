@@ -27,6 +27,7 @@ export const ProjectOne = () => {
                     <p className="text-xl font-semibold">Features Build</p>
                     <ul className="list-disc mt-5 ml-8">
                         <li></li>
+                        <li></li>
                     </ul>
                 </div>
             </div>
