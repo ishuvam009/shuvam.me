@@ -16,7 +16,7 @@ export const ProjectComp = () => {
               </p>
             </div>
           </Link>
-          <Link to={"/projects/medium"}>
+          <Link to={"/projects/finsight"}>
             <div className="mb-4">
                 <p className="underline underline-offset-4">
                   ScribeX - Medium like blogging platform.
